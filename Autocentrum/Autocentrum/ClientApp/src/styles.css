@@ -1,0 +1,128 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* font-family: 'Kaushan Script';
+font-family: 'Droid Serif';
+font-family: 'Roboto Slab';
+font-family: 'Montserrat'; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(121, 121, 121);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/headerImg.jpg);
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 60px;
+  /* background-size: 100%;
+    display: block;
+    min-height:100%;
+    width:100%;
+    padding: 60px;
+    padding-left: 120px; */
+}
+
+.intro-text {
+  margin-top: 15%;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+}
+
+.intro-lead-in {
+  font-family: 'Kaushan Script';
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.intro-heading {
+  font-family: 'Calistoga';
+  font-size: 80px;
+  font-weight: bold;
+  -webkit-text-stroke: 2px black;
+}
+
+.page-section {
+  display: block;
+  background: #CFF;
+  min-height: 100%;
+  width: 100%;
+  padding: 60px;
+  padding-left: 120px;
+  box-sizing: border-box;
+}
+
+.section-heading {
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+.section-subheading {
+  margin-bottom: 5%;
+  font-family: 'Kaushan Script';
+}
+
+.service-heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.btn-xl {
+  height: 40px;
+  width: 180px;
+  text-align: center;
+}
+
+/* Team */
+
+.page-section .team-member {
+  text-align: center;
+  margin: 5px;
+  padding: 20px;
+  /* margin: 5px;
+    margin-bottom: 50px;
+    line-height: 20px;
+    width: 300px;
+    color: #8e8b8b;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center; */
+}
+
+  .page-section .team-member img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .page-section .team-member h4 {
+    font-size: 24px;
+    margin-top: 50px;
+  }
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}

@@ -1,0 +1,23 @@
+.portfolio-item {
+}
+
+/*.portfolio-hover {
+  position: absolute;
+  opacity: 0;
+}
+
+.portfolio-item:hover .portfolio-hover {
+  opacity: 1;
+}*/
+
+.portfolio-item img {
+  transition: 1s;
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.1);
+}
+
+.portfolio-caption {
+  margin-top: 15px;
+}
